@@ -1,0 +1,15 @@
+<html>
+
+<h1>Users</h1>
+
+<table border="1">
+     <tr><th>User Name</th></tr>
+    
+    <% users.forEach(function(user)  { %>
+       <tr>
+          <td><%= user._id %></td> 
+       </tr>
+   <% }) %> 
+</table>
+
+</html>
